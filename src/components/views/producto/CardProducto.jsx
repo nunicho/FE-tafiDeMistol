@@ -17,18 +17,13 @@ const CardProducto = ({ producto }) => {
           <div>
             <span class="badge text-bg-warning">{categoria}</span>
           </div>
-          <div class="row mt-4">
-            <div class="col-6">
+          <div class="row mt-4 justify-content-center">
+            <div class="col-6 text-center">
               <Link to={`/detalles/producto/${_id}`}>
                 <button class="btn">
                   <a class="text-white text-decoration-none">Detalles</a>
                 </button>
               </Link>
-            </div>
-            <div class="col-6">
-              <button class="btn col-6">
-                <i class="bi bi-cart4 text-white fs-5"></i>
-              </button>
             </div>
           </div>
         </div>
