@@ -19,14 +19,14 @@ const LoginCliente = ({setClienteLogueado, setSaludoNavbarCliente}) => {
         loginClientes(data).then((respuesta) => {
           console.log(respuesta);
           if (respuesta) {
-            //almaceno el usuario en el state y localstorage
+            
             localStorage.setItem("tokenCliente", JSON.stringify(respuesta));
             setClienteLogueado(respuesta);
             localStorage.getItem("tokenCliente", JSON.stringify(respuesta));
             const saludoCliente = "Hola "+respuesta.apellido+", "+respuesta.nombreCliente+"!!"
             localStorage.setItem("saludoCliente", JSON.stringify(saludoCliente))
             setSaludoNavbarCliente(saludoCliente)
-            // si el usuario es correcto entonces redirecciono al admin
+            
             navigate("/carta");
           } else {
             Swal.fire(
