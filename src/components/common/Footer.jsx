@@ -34,7 +34,7 @@ const Footer = () => {
       <Container className="py-4">
         <Row className="justify-content-between">
           <Col md={3} className="text-center mt-4" >
-          <Link to={"/"}>
+          <Link to={"/nosotros"}>
             <img src={logo} alt="Logo" className="w-50" />
             </Link>
           </Col>
@@ -49,21 +49,21 @@ const Footer = () => {
           </Col>
           <Col md={2} className="mb-3 text-center">
             <h5 className="text-light fw-bold">Categorías</h5>
-            <NavLink end className="nav-item nav-link text-light my-2" to="./components/views/portada/ListaAperitivos">
+            <NavLink end className="nav-item nav-link text-light my-2" to="/aperitivos">
               Aperitivos
             </NavLink>
-            <NavLink end className="nav-item nav-link text-light my-2" to="./components/views/portada/ListaBebidas">
+            <NavLink end className="nav-item nav-link text-light my-2" to="/bebidas">
               Bebidas
             </NavLink>
-            <NavLink end className="nav-item nav-link text-light my-2" to="./components/views/portada/ListaEntradas">
+            <NavLink end className="nav-item nav-link text-light my-2" to="/entradas">
               Entradas
             </NavLink>
-            <NavLink end className="nav-item nav-link text-light my-2" to="./components/views/portada/ListaPlatoPrincipal">
+            <NavLink end className="nav-item nav-link text-light my-2" to="/platos-principales">
 
             Platos Principales
 
             </NavLink>
-            <NavLink end className="nav-item nav-link text-light" to="./components/views/portada/ListaPostres">
+            <NavLink end className="nav-item nav-link text-light" to="/postres">
               Postres
             </NavLink>
           </Col>
