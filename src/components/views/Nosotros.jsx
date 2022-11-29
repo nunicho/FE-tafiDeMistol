@@ -3,6 +3,8 @@ import { Container } from "react-bootstrap";
 import gonzalo from "../img/Avatar-Gonzalo.png";
 import enzo from "../img/Enzo.png";
 import florencia from "../img/avatarFlor.png";
+import mauricio from "../img/mauricio.png";
+import jose from "../img/jose.png";
 
 const Nosotros = () => {
   return (
@@ -89,14 +91,14 @@ const Nosotros = () => {
               </p>
             </div>
             <div className="col-12 col-md-6 col-lg-6 justify-content-center">
-              <img src={enzo} className="w-50 my-3" alt="avatar Enzo" />
+              <img src={mauricio} className="w-50 my-3" alt="avatar Enzo" />
             </div>
           </article>
           <hr />
           <article className="row align-items-center mb-5">
                 <div className="col-12 col-md-6 col-lg-6">
                   <img
-                    src={florencia}
+                    src={jose}
                     className="w-50"
                     alt="avatar florencia"
                   />
@@ -106,7 +108,7 @@ const Nosotros = () => {
                     <i className="bi bi-chat-heart-fill"></i> María Florencia Alonso
                   </h3>
                   <p>
-                  Soy Florencia, tengo 37 años, soy contadora y me dedico a la valuación de empresas para Estados Unidos. En mi carrera, me especialicé en impuestos y también realicé un MBA.  Elegí estudiar programación porque se trata de una disciplina apasionante y de una versatilidad sin igual. Mi objetivo es aplicar estos conocimientos a las Ciencias Económicas para poder progresar en el área de las finanzas corporativas.
+                  Holas, mi nombre es Pereyra Jose Luis...Soy un profesional sobre la Higiene y Seguridad laboral, siempre fui un amante de la tecnologica y la informatica. Hace un par de meses un grupo de amigos me  propuso incursionar en este bello mundo de la programacion, pasaron doce meses y aqui estamos.......
                   </p>
                 </div>
               </article>
